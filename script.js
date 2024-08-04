@@ -20,7 +20,7 @@ function fetchData() {
     fetch(url)
         .then((response) => {
             if (!response.ok) {
-                throw new Error(`HTTP error! Status: ${response.status}`);
+                throw new Error(`Error Status: ${response.status}`);
             }
             return response.json();
         })
@@ -74,8 +74,5 @@ function fetchData() {
             errorOutput.textContent =
                 "Произошла ошибка, попробуйте еще раз или выберите другой вариант";
             loader.classList.add("hidden");
-        })
-        .finally(() => {
-            // Additional cleanup if needed
         });
 }

@@ -16,7 +16,7 @@ This application provides a simple user interface where users can select a speci
 ## 🌌 Technologies Used
 
 -   HTML: To structure the web page.
--   CSS: For styling the web page (refer to `style.css`).
+-   CSS: For styling the web page.
 -   JavaScript: To handle user interactions and API requests.
 
 ## 🌚 How to Use
